@@ -47,7 +47,7 @@ const MyCard = () => {
           <P>email: 3846205@gmail.com</P>
           <P>tel: 517-560-254</P>
 
-          <P>age: 45</P>
+          <P>age: 46</P>
         </Card>
       </Container>
     </>
