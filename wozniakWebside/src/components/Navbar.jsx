@@ -2,12 +2,14 @@ import styled from "styled-components";
 
 const Container = styled.div`
   margin-top: 10px;
-  width: 1440px;
-  max-width: 1440px;
+  width: 1920px;
   height: 65px;
-  border: 1px solid #500014;
+  border-bottom: 1px solid #333;
   border-radius: 4px;
   box-sizing: border-box;
+  display: flex;
+  justify-content: start;
+  align-items: center;
 
   @media (min-width: 1280px) and (max-width: 1440px) {
     max-width: 1440px;

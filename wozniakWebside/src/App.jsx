@@ -1,14 +1,14 @@
 import GlobalStyles from "./hooks/GlobalStyle";
-import Navbar from "./sections/Navbar";
-import MyCard from "./sections/MyCard";
-import Footer from "./sections/Footer";
+import Navbar from "./components/Navbar";
+import Body from "./components/Body";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
       <GlobalStyles />
       <Navbar />
-      <MyCard />
+      <Body />
       <Footer />
     </>
   );
