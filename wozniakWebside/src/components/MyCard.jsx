@@ -5,9 +5,10 @@ const Container = styled.div`
   width: 100%;
   min-height: 750px;
   max-width: 1920px;
-  /* border: 1px solid #000000; */
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
   border-radius: 4px;
-  margin-top: 4px;
+  margin-top: 30px;
   padding-top: 30px;
   display: flex;
   justify-content: start;

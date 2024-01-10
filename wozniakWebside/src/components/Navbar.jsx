@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import PrabetonSVG from "../assets/svg/PrabetonSVG";
 
 const Container = styled.div`
   margin-top: 10px;
@@ -8,7 +9,7 @@ const Container = styled.div`
   border-radius: 4px;
   box-sizing: border-box;
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
 
   @media (min-width: 1280px) and (max-width: 1440px) {
@@ -29,6 +30,10 @@ const Container = styled.div`
 `;
 
 const Navbar = () => {
-  return <Container></Container>;
+  return (
+    <Container>
+      <PrabetonSVG size="50" fill="#333" />
+    </Container>
+  );
 };
 export default Navbar;
